@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100vh;
+    background: linear-gradient(rgb(39, 39, 255), rgb(239, 241, 68)) 
+} 
+
+.App {
+    width: 40vw;
+    height: 80vh;
+    background: #fefefe;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    background: rgb(105, 105, 241);
+    color:#fefefe
+}
