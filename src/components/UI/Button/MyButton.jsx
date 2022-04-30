@@ -1,9 +1,10 @@
 import React from "react";
 import cl from "./MyButton.module.css"
 
-const MyButton = () => {
+const MyButton = ({children, addToDo, inputValue}) => {
     return (
-        <button className={cl.mybtn}>
+        <button onClick={() => {addToDo(inputValue)}} className={cl.mybtn}>
+            {children}
         </button>
     );
 };

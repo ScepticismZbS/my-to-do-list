@@ -1,18 +1,14 @@
 import React from "react";
 
-const ListBody = () => {
+const ListBody = ({toDoItems}) => {
     return (
         <div>
             <ul>
-                <li>
-                    dsf
-                </li>
-                <li>
-                    dsf
-                </li>
-                <li>
-                    dsf
-                </li>
+                {toDoItems.map((item) => (
+                    <li key={item.id}>
+                        {item.value}
+                    </li>
+                ))}
             </ul>
         </div>
     );

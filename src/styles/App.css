@@ -21,3 +21,8 @@
     background: rgb(105, 105, 241);
     color:#fefefe
 }
+
+.newToDo {
+    display: flex;
+    border: 1px solid rgb(130, 187, 104);
+}
