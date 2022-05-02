@@ -14,8 +14,8 @@ function App() {
   const addToDo = (value) => {
     const toDo = {
       value,
-      id,
-      isDone: false
+      id: Date.now(),
+      isComplete: false
     }
     setToDoItems((toDoItems) => [...toDoItems, toDo])
     console.log(toDo)
