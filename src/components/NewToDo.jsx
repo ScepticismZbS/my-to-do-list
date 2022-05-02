@@ -8,7 +8,6 @@ const NewToDo = ({addToDo}) => {
    
     const [inputValue, setInputValue] = useState('')
 
-
     
 
     return(
